@@ -7,13 +7,7 @@ public struct Train : IComponentData
     public float3 Destination;
     public RailwayPointType DestinationType;
     public float DistanceToNextTrain;
-
     public Entity MetroLine;
-
-    /*public float Angle;
-    public float3 Forward;
-    public float3 DestinationDirection;
-    public float DistanceToDestination;*/
 }
 
 public struct TrainIndexOnMetroLine : IComponentData

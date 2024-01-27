@@ -19,5 +19,4 @@ public enum PassengerState
 public struct Passenger : IComponentData
 {
     public PassengerState State;
-    //public float3 Destination;
 }
